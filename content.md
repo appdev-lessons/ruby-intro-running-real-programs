@@ -18,7 +18,7 @@ For all these reasons and a bunch more, we need to start using a real environmen
 
 Since this is not a graded project, you can [head directly to the ruby-sandbox repository and fork it to your own account](https://github.com/appdev-projects/ruby-sandbox/fork).
 
-Once you've created a fork, [set up a Codespace](https://learn.firstdraft.com/lessons/55#start-your-first-codespace).
+Once you've created a fork, [set up a Codespace](https://learn.firstdraft.com/lessons/55-hello-world#start-your-first-codespace).
 
 ## Creating Ruby files
 
@@ -206,7 +206,7 @@ their_name = gets
 pp "Hello, " + their_name + "!"
 ```
 
-Great! Our first user input. However, you'll notice a couple of things. First of all, there's a `\n` sneaking into the input. [`\n` is an _escape character_ representing a new line](https://learn.firstdraft.com/lessons/113#escape-characters), and it's in there because of the <kbd>return</kbd> that is pressed to submit the input.
+Great! Our first user input. However, you'll notice a couple of things. First of all, there's a `\n` sneaking into the input. [`\n` is an _escape character_ representing a new line](https://learn.firstdraft.com/lessons/113-ruby-intro-printing-and-string-interpolation#escape-characters), and it's in there because of the <kbd>return</kbd> that is pressed to submit the input.
 
 If you want to see the newline in action, we can use a different printing method called `puts` (pronounced "put S", short for "put string"). `puts` is actually the printing method that is used most when crafting the final output of terminal programs; as opposed to `pp`, which is used most for _making the invisible visible_ while debugging. Try switching:
 
@@ -228,7 +228,7 @@ Most of the time, we'll stick with `pp`, since it provides more details while de
 
 ### gets.chomp
 
-We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, the handy `.chomp` method does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. [Read more about `.chomp` in our Ruby reference](https://learn.firstdraft.com/lessons/33#chomp). Try modifying the program to:
+We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, the handy `.chomp` method does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. [Read more about `.chomp` in our Ruby reference](https://learn.firstdraft.com/lessons/33-the-one-ruby-reference#chomp). Try modifying the program to:
 
 ```ruby
 their_name = gets.chomp
@@ -359,7 +359,7 @@ When you have some work in a file you want to save, make a git commit and push y
 
 In our short example here, "initial commit". With that, you can go ahead and create another `.rb` file and begin working there. It's a good idea to make separate commits for individual files that you create.
 
-Follow the instructions in our [git workflow manual for the steps to commit and push](https://learn.firstdraft.com/lessons/50).
+Follow the instructions in our [git workflow manual for the steps to commit and push](https://learn.firstdraft.com/lessons/50-git-commit-and-push).
 
 ## Bookmark the sandbox
 
