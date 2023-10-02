@@ -21,7 +21,7 @@ For all these reasons and a bunch more, we need to start using a real environmen
 
 Since this is not a graded project, you can [head directly to the ruby-sandbox repository and fork it to your own account](https://github.com/appdev-projects/ruby-sandbox/fork).
 
-Once you've created a fork, [set up a Codespace](https://learn.firstdraft.com/lessons/55-hello-world#start-your-first-codespace).
+Once you've created a fork, [set up a Codespace](https://learn.firstdraft.com/lessons/106-hello-world#start-your-first-codespace).
 
 ## Creating Ruby files
 
