@@ -248,7 +248,7 @@ Ruby includes a wonderful tool for interactive experimentation known as Interact
 To try it out, run the following at the bash prompt:
 
 ```
-irb
+% irb
 ```
 
 You will see the prompt change from `%` bash prompt to `3.2.1 :001 >` (`3.2.1` for the Ruby version that our projects are setup with):
