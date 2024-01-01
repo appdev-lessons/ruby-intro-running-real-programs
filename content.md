@@ -366,19 +366,14 @@ Follow the instructions in our [git workflow manual for the steps to commit and 
 
 ## Bookmark the sandbox
 
-You can and should bookmark your Codespace for the `ruby-sandbox`, so that it:
+You can and should bookmark your codespace for the `ruby-sandbox`, so that it doesn't get deleted and is easy to find when you want to reopen it.
 
-* doesn't get deleted, and
-* is easy to find when you want to re-open it.
+To do so, navigate to [your GitHub Codespaces dashboard at github.com/codespaces](https://github.com/codespaces), scroll down to find the codespace (look for `<your-username>/ruby-sandbox`), click the `...` menu, and un-check the "Auto-delete codespace" option to prevent deletion of the codespace after 30 days of inactivity:
 
-The sandbox will boot up very quickly if you keep it bookmarked.
+![](/assets/manage-codespaces.png)
+{: .bleed-full }
 
-To do so, navigate to [your GitHub Codespaces dashboard at github.com/codespaces](https://github.com/codespaces), scroll down to find the Codespace (look for `<your-username>/ruby-sandbox`), click the `...` menu, and select "Keep codespace":
-
-<!-- ![](/assets/ruby-scratch-7.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1687287463/ruby-scratch-7_i6dnwi.png)
-
-Now, anytime you want to re-open the space, you can just navigate back to the dashboard and select the `...` menu > "Open in" > "Open in browser".
+Now, anytime you want to reopen the space, you can just navigate back to the dashboard and open the `...` management menu, then "Open in browser".
 
 ----
 
